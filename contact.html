@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa's Helpers</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    
+   <!-- navigation bar-->
+    <div class="topnav">
+        <a href="index.html">Home</a> 
+        <a class="active" href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+
+    </div>
+    <br><br>
+    <!--the site name, header and green font-->
+    <h1>Santa's Helpers</h1>
+    <!--page title, I made it red and added a header-->
+    <h2>Contact Our Elves</h2>
+<h3>Please fill out the below form with your information and gift wrap preferences. </h3>
+<br><br>
+<!--Form to fill out name, address and phone number and then 3 areas to add a gift and the wrapping prefences-->
+   
+<form>
+    <h4>Personal Information</h4>
+    <input type="text" name="firstname" placeholder="First Name">
+    <input type="text" name="lastname" placeholder="Last Name">
+    <input type="text" name="address" placeholder="Address">
+    <input type="text" name="phone" placeholder="Phone Number">
+    <br><br>
+
+    <!-- Gift 1 -->
+    <!--Each gift has drop down choices to select which option is needed-->
+    <div id="gift-section">
+        <h4>Gift 1:</h4>
+        <input type="text" Name="gift" placeholder="Gift">
+        <h5>Size:</h5>
+        <select name="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+      
+        <h5>Wrapping Type: </h5>
+        <select name="wrapping-type">
+            <option value="Wrapping paper">Wrapping Paper</option>
+            <option value="Bag">Bag</option>
+            <option value="Box">Box</option>
+        </select>
+       
+        <h5>Ribbon:</h5>
+        <select name="ribbon">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+    </div>
+
+    <!-- Gift 2 -->
+    <div id="gift-section">
+        <h4>Gift 2:</h4>
+        <input type="text" Name="gift" placeholder="Gift">
+        <h5>Size:</h5>
+        <select name="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+       
+        <h5>Wrapping Type: </h5>
+        <select name="wrapping-type">
+            <option value="Wrapping paper">Wrapping Paper</option>
+            <option value="Bag">Bag</option>
+            <option value="Box">Box</option>
+        </select>
+       
+        <h5>Ribbon:</h5> 
+        <select name="ribbon">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <br>
+    </div>
+
+    <!-- Gift 3 -->
+    <div id="gift-section">
+        <h4>Gift 3:</h4>
+        <input type="text" Name="gift" placeholder="Gift">
+        <h5>Size:</h5>
+        <select name="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+        
+        <h5>Wrapping Type:</h5>
+        <select name="wrapping-type">
+            <option value="Wrapping paper">Wrapping Paper</option>
+            <option value="Bag">Bag</option>
+            <option value="Box">Box</option>
+        </select>
+        
+        <h5>Ribbon:</h5>
+        <select name="ribbon">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        
+        <input type="submit" value="Submit">
+    </div>
+</form>
+</body>
+</html>
